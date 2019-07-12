@@ -6,9 +6,9 @@ Used:
 * HTML
 * CSS
 
-#Authors
+##Authors:
 *Ansar https://github.com/ansaryergesh
 *Anthony https://github.com/AnthonyTC89
 
-#The Website
+###The Website
 https://rawcdn.githack.com/ansaryergesh/html-forms/develop/index.html
