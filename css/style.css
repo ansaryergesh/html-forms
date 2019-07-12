@@ -1,0 +1,207 @@
+/* base styles */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box }
+
+html {
+  font-size: 62.5%;
+ }
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #2b2c2e;
+  background-color: #e6e8eb;
+  box-sizing: border-box; 
+  font-size: 1.6rem;
+  padding: 0;
+  
+}   
+
+.heading-none {
+    display: none;
+}
+
+/* Header  */
+.header{
+    
+    font-size: 1.2rem;
+    line-height:1.2;
+    float: right;
+    height: 4rem;
+    position: absolute;
+    padding: 0;
+    top: 2rem;
+    right:2rem;
+}
+
+.paragraph {
+    float:left;
+}
+
+a{
+
+    color:#4487f2;
+    text-decoration:none;
+}
+
+.signin {
+    margin-left:0.5rem;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: .8rem 2.5rem;
+    background-color: #4487f2;
+    color:white
+}
+
+
+/* Main */
+
+main>.logo {
+    display: block;
+    margin: 7rem auto 1rem auto;
+    height: 8rem;
+  
+}
+
+.logos {
+    display: block;
+    margin: 0 auto 1rem auto;
+
+}
+
+.form{
+    background-color: white;
+    width: 25%;
+    margin-right: auto;
+    margin-left: auto;
+    border:1px solid #cfd1d4;
+
+}
+
+.form-headings>h1{
+    font-size: 2.5rem;
+    padding: 2rem 0 0 0 ;
+    text-align: center;
+    font-weight: 300;
+}
+
+.form-headings>p{
+    font-size: 1.4rem;
+    padding-top: 1rem;
+    text-align: center;
+    font-weight: 300;
+    line-height: 0.7
+}
+
+.form-headings>a{
+    display: block;
+    font-size: 1.2rem;
+    padding:  0;
+    text-align:center;
+    font-weight: 300;
+}
+
+.form-labels {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-labels>label {
+    font-size:1.4rem;
+    margin: 1.5rem auto .8rem 2.5rem;
+}
+
+.form-labels>input{
+    height: 3rem;
+    width: 85%;
+    margin: 0 auto 1rem 2.5rem;
+    border-radius: 3px;
+    border:0.5px solid #cfd1d4;
+
+}
+
+.form-labels>input[type=tel] {
+    margin-bottom: 0;
+}
+.form-labels>input[type=password] {
+    margin-bottom: 3rem;
+}
+
+.btn-create {
+    margin:2rem 2.5rem;
+    background-color: #4487f2;
+    border-radius: 3px;
+    color:white;
+    height: 5rem;
+   
+}
+
+.little-text {
+    font-size: 1rem;
+    margin: 0 auto 1rem 2.5rem;
+}
+
+.i-cur{
+    margin-top:1.5rem;
+    font-size:1.1rem;
+    text-align: center
+}
+.i-curr{
+    margin-top:0;
+    font-size:1.1rem;
+    text-align: center;
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+}
+
+.i-curr>strong{
+    color: #4487f2;
+
+}
+.i-curr>strong:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.form-labels>.p-labels{
+    background-color: #e6e8eb;
+    text-align: center;
+    font-size: 1rem;
+    padding: 2rem 0;
+    margin-top: 3rem;
+}
+
+.p-labels>strong{
+    color: #4487f2;
+}
+
+.p-labels>strong:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+li{
+    list-style: none;
+    display: inline;
+    margin-right: 0.4rem;
+}
+li:hover{
+    text-decoration: underline;
+}
+.ul-section{
+   
+    
+}
